@@ -1,7 +1,35 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<title>League Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>	
 </head>
 <body>
-Hello World!
+	<div class="container" style="padding-top: 40px">
+		<div class="well">
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+					<label for="devkeyinput" class="col-sm-2 control-label">Dev Key</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="devkeyinput" data-bind="value: devKey"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="summonernameinput" class="col-sm-2 control-label">Summoner Name</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="summonernameinput" data-bind="value: summonerName"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="js/mycode.js"></script>
 </body>
 </html>
